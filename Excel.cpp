@@ -94,7 +94,7 @@ int main()
 	for(int i = 0; i < m; i++)
 	{
 		cin.ignore();
-		cout<<"Header of property #"<<i+1<<": ";
+		cout<<"Header of property #"<<i + 1<<": ";
 		getline(cin, headers[i]);
 		cout<<"Width of the header "<<headers[i]<<": ";
 		cin>>widths[i];
