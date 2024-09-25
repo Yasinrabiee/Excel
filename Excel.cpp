@@ -158,15 +158,13 @@ int main()
 	cout<<"\n\nPress r to return to main menu";
 	cout<<"\n\nPress x to exit the program\n";
 	char ch = getch();
-	if(ch == 'r')
-	{
+	if(ch == 'r') {
 		system("cls");
 		goto start;
 	}
 	else if(ch == 'x')
 		exit(0);
-	else
-	{
+	else {
 		cout<<"\nInvalid !";
 		goto lable;	
 	}	
