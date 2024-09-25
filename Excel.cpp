@@ -15,7 +15,7 @@ void midLine(int widths[], int m)
 	for(int i = 0; i<m; i++)
 	{
 		cout<<line(widths[i]);
-		if(i==m-1)
+		if(i == m-1)
 			cout<<(char)185;
 		else	
 			cout<<(char)206;
@@ -25,10 +25,10 @@ void midLine(int widths[], int m)
 void borderBottom(int widths[], int m)
 {
 	cout<<(char)200;
-	for(int i = 0; i<m; i++)
+	for(int i = 0; i < m; i++)
 	{
 		cout<<line(widths[i]);
-		if(i==m-1)
+		if(i == m - 1)
 			cout<<(char)188;
 		else	
 			cout<<(char)202;
@@ -37,16 +37,16 @@ void borderBottom(int widths[], int m)
 string space(int n)
 {
 	string content = "";
-	for(int i = 0; i<n; i++)
+	for(int i = 0; i < n; i++)
 		content += " ";
 	return content;
 }
 string align(string text, int w, char alignment)
 {
-	w = w-text.length();
-	string sp = space(w/2);
-	if(w % 2 !=0)
-		if(alignment=='r')
+	w = w - text.length();
+	string sp = space(w / 2);
+	if(w % 2 != 0)
+		if(alignment == 'r')
 			text = " " + text;
 		else
 			text += " ";
