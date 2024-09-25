@@ -136,7 +136,7 @@ int main()
 	}
 	cout<<"\n";
 	midLine(widths, m);
-	// Print informations users
+	// Print informations user
 	for(int i = 0; i < n; i++)
 	{
 		cout<<(char)186;
