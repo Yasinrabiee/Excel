@@ -63,7 +63,8 @@ string align(string text, int w, char alignment)
 			break;		
 	}
 }
-int main() {
+int main()
+{
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	start:
 	string content = "";
@@ -157,13 +158,15 @@ int main() {
 	cout<<"\n\nPress r to return to main menu";
 	cout<<"\n\nPress x to exit the program\n";
 	char ch = getch();
-	if(ch == 'r') {
+	if(ch == 'r')
+	{
 		system("cls");
 		goto start;
 	}
 	else if(ch == 'x')
 		exit(0);
-	else {
+	else
+	{
 		cout<<"\nInvalid !";
 		goto lable;	
 	}	
