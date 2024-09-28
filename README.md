@@ -1,1 +1,1 @@
-if you want to view this programme at the first you must download exe file
+If you want to view this program, first you must download the exe file.
