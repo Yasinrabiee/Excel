@@ -65,6 +65,7 @@ string align(string text, int w, char alignment)
 }
 int main()
 {
+	// get information
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	start:
 	string content = "";
