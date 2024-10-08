@@ -63,6 +63,7 @@ string align(string text, int w, char alignment)
 			break;		
 	}
 }
+
 int main()
 {
 	// get information
