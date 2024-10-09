@@ -9,7 +9,8 @@ string line(int n)
 		content += (char)205;
 	return content;	
 }
-void midLine(int widths[], int m) {
+void midLine(int widths[], int m) 
+{
 	cout<<(char)204;
 	for(int i = 0; i < m; i++)
 	{
