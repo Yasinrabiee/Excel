@@ -2,8 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 using namespace std;
-string line(int n)
-{
+string line(int n) {
 	string content = "";
 	for(int i = 0; i < n; i++)
 		content += (char)205;
