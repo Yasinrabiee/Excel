@@ -2,14 +2,14 @@
 #include <windows.h>
 #include <conio.h>
 using namespace std;
-string line(int n) {
+string line(int n)
+{
 	string content = "";
 	for(int i = 0; i < n; i++)
 		content += (char)205;
 	return content;	
 }
-void midLine(int widths[], int m)
-{
+void midLine(int widths[], int m) {
 	cout<<(char)204;
 	for(int i = 0; i < m; i++)
 	{
